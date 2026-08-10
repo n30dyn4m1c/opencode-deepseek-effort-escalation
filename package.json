@@ -1,0 +1,50 @@
+{
+  "name": "opencode-deepseek-effort-escalation",
+  "version": "0.1.0",
+  "description": "Auto-escalate DeepSeek reasoning effort from high to max when opencode hits repeated tool failures or session errors.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "deepseek",
+    "reasoning",
+    "reasoning-effort"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18",
+    "opencode": ">=1.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n30dyn4m1c/opencode-deepseek-effort-escalation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/n30dyn4m1c/opencode-deepseek-effort-escalation/issues"
+  },
+  "homepage": "https://github.com/n30dyn4m1c/opencode-deepseek-effort-escalation#readme",
+  "author": {
+    "name": "Neo Malesa",
+    "email": "n30dyn4m1c@gmail.com"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "1.18.11",
+    "@opencode-ai/sdk": "1.18.11",
+    "typescript": "5.8.2"
+  }
+}
